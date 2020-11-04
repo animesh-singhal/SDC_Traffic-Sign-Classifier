@@ -137,11 +137,11 @@ Here's the iterative approach that I choose to get the job done:
 
 Here are five German traffic signs that I found on the web:
 
-<img src="examples\1_double_curve.jpg" width="200">
-<img src="examples\2_no entry.jpg" width="200">
-<img src="examples\3_slippery_road.jpg" width="200">
-<img src="examples\4_speed limit 20.jpg" width="200">
-<img src="examples\5_stop.jpg" width="200">
+<img src="examples\1_double_curve.jpg" width="50">
+<img src="examples\2_no entry.jpg" width="50">
+<img src="examples\3_slippery_road.jpg" width="50">
+<img src="examples\4_speed limit 20.jpg" width="50">
+<img src="examples\5_stop.jpg" width="50">
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
