@@ -17,14 +17,6 @@ The goals / steps of this project are the following:
 * Summarize the results with a written report
 
 
-[//]: # (Image References)
-
-[image4]: ./examples/1_double_curve.jpg "Traffic Sign 1"
-[image5]: ./examples/2_no entry.jpg "Traffic Sign 2"
-[image6]: ./examples/3_slippery_road.jpg "Traffic Sign 3"
-[image7]: ./examples/4_speed limit 20.jpg "Traffic Sign 4"
-[image8]: ./examples/5_stop.jpg "Traffic Sign 5"
-
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
 
@@ -145,8 +137,11 @@ Here's the iterative approach that I choose to get the job done:
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8]
+<img src="examples\1_double_curve.jpg" width="200">
+<img src="examples\2_no entry.jpg" width="200">
+<img src="examples\3_slippery_road.jpg" width="200">
+<img src="examples\4_speed limit 20.jpg" width="200">
+<img src="examples\5_stop.jpg" width="200">
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
@@ -189,6 +184,7 @@ For the 5th image the model is relatively less confident stating that this is a 
 | .004					| Traffic signals										|
 | .003	      			| Right-of-way at the next intersection					 				|
 | .0002				    | Priority road      							|
+
 It is surprising that the stop sign doesn't even appear in the top 5 probabilities. It could be because of the relatively lesser number of samples of that sign in our training set data. 
 
 
